@@ -1,76 +1,121 @@
- # 🩺 Ficha de Anamnese - Fullstack E-commerce & SaaS
+Anamnesis Ecommerce Platform
 
-Este repositório apresenta o **Case Técnico** de uma plataforma robusta de e-commerce voltada para profissionais da saúde. O sistema permite a venda, gestão e entrega automatizada de documentos digitais (fichas de anamnese, TCLE, contratos, etc).
+Plataforma ecommerce fullstack com fluxo de anamnese pré-compra, desenvolvida para coletar e validar informações do cliente antes da conclusão do pedido.
 
-**🔗 Link em Produção:** [www.fichadeanamnese.com.br](https://www.fichadeanamnese.com.br/)
+O sistema integra frontend e backend em um fluxo orientado a dados, garantindo que requisitos específicos do produto sejam atendidos antes da compra.
 
----
+Este projeto simula um cenário real de ecommerce especializado com coleta estruturada de informações do usuário.
 
-## 🏗️ Arquitetura do Sistema
+Visão Geral do Sistema
 
-O ecossistema foi desenvolvido com foco em alta disponibilidade e segurança, dividido em:
+O processo de compra inclui uma etapa de anamnese obrigatória, onde o usuário fornece dados relevantes que influenciam a elegibilidade e personalização do produto.
 
-1.  **Storefront (Next.js):** Experiência do cliente final com foco em performance e SEO.
-2.  **API Gateway (NestJS):** Core business logic, processamento de pagamentos e segurança.
-3.  **Admin Dashboard (Next.js):** Painel de controle para gestão de produtos, categorias e ordens de serviço.
+Fluxo principal:
 
----
+Seleção de produto
 
-## 🚀 Funcionalidades Técnicas em Destaque
+Preenchimento de anamnese
 
-### 🛒 Jornada do Usuário e Checkout
-* **Autenticação Segura:** Implementação híbrida com **Google OAuth2** e credenciais via JWT.
-* **Gateway de Pagamento:** Integração com **Pagar.me** para processamento de cartões e boletos.
-* **Segurança na Entrega:** Sistema de **Hash Única** gerada após aprovação do pagamento, garantindo que o download do documento digital seja seguro e rastreável.
+Validação de dados
 
-### 🛡️ Engenharia e Infraestrutura
-* **Clean Architecture:** Uso de **Use Cases** e **Repository Pattern** no NestJS para um código testável e de fácil manutenção.
-* **Blindagem de Servidor:** Dockerização completa com **Nginx** (Proxy Reverso) e **Fail2Ban** (Mitigação de ataques de força bruta).
-* **Validação Rigorosa:** Contratos de API protegidos por DTOs com `class-validator`.
+Revisão
 
----
+Confirmação de compra
 
-## 📸 Evidências Técnicas (Showcase)
+Esse modelo é comum em ecommerce de saúde, estética e produtos personalizados.
 
-### 🖥️ Interface do Cliente (Storefront)
-<div align="center">
-  <img src="assets/ficha/client/1.png" width="45%" alt="Tela de Login">
-  <img src="assets/ficha/client/2.png" width="45%" alt="Home do E-commerce">
-</div>
+Arquitetura
 
-### ⚙️ Painel Administrativo (Backoffice)
-<div align="center">
-  <img src="assets/ficha/admin/1.png" width="45%" alt="Dashboard Admin">
-  <img src="assets/ficha/admin/2.png" width="45%" alt="Gestão de Catálogo">
-</div>
+O sistema foi estruturado em arquitetura fullstack com separação clara entre frontend, backend e persistência.
 
-### 💻 Engenharia de Software (NestJS Backend)
-Demonstração da organização de pastas e implementação de lógica de negócio isolada (Use Cases):
-<div align="center">
-  <img src="assets/ficha/api/1.png" width="90%" alt="Estrutura de Código NestJS">
-</div>
+Camadas principais:
 
-### 🐋 Infraestrutura e Deploy (Docker)
-Configuração de ambiente isolado garantindo paridade entre desenvolvimento e produção:
-<div align="center">
-  <img src="assets/ficha/docker/1.png" width="90%" alt="Configuração Docker Compose">
-</div>
+Frontend — interface do usuário e fluxo de compra
 
----
+API — regras de negócio e processamento da anamnese
 
-## 🛠️ Stack Tecnológica
+Domínio — entidades e validações
 
-| Camada | Tecnologias |
-| :--- | :--- |
-| **Frontend / Admin** | Next.js, TypeScript, Tailwind CSS |
-| **Backend (API)** | NestJS, PostgreSQL, Prisma/TypeORM |
-| **Infraestrutura** | Docker, Nginx, Fail2Ban, Linux VPS |
-| **Integrações** | Pagar.me API, Google Auth (OAuth2) |
+Persistência — armazenamento relacional
 
----
+O backend centraliza a lógica de validação e processamento do fluxo de anamnese, garantindo consistência entre clientes.
 
-> **Nota Legal:** Por motivos de conformidade e sigilo contratual, o código-fonte integral deste projeto é privado. Este repositório serve como portfólio técnico para demonstrar competências em arquitetura, segurança e desenvolvimento fullstack.
+Stack Tecnológica
+Backend
 
----
-## 👤 Autor
-**Tiago R. Becker** Desenvolvedor Fullstack focado em soluções escaláveis e seguras.
+Node.js
+
+TypeScript
+
+API REST
+
+Persistência relacional
+
+Frontend
+
+React
+
+Next.js
+
+Tailwind CSS / Chakra UI
+
+Funcionalidades Principais
+
+Catálogo de produtos
+
+Fluxo de anamnese pré-compra
+
+Coleta estruturada de dados do cliente
+
+Validação de elegibilidade
+
+Revisão de informações
+
+Finalização de pedido
+
+Persistência de respostas
+
+Diferencial Técnico
+
+O principal diferencial do sistema é a integração do fluxo de anamnese diretamente ao processo de compra, transformando o checkout em um fluxo orientado a dados e validações de domínio.
+
+Esse modelo permite:
+
+personalização de produtos
+
+validação de requisitos
+
+coleta de dados estruturados
+
+suporte a ecommerce especializado
+
+Meu Papel no Projeto
+
+Arquitetura da aplicação
+
+Modelagem do domínio de anamnese
+
+Implementação do backend
+
+Desenvolvimento do frontend
+
+Estruturação do fluxo de compra
+
+Integração fullstack
+
+Contexto de Uso
+
+Este projeto representa um cenário real de ecommerce especializado, onde a coleta de informações do cliente é necessária antes da venda, comum em:
+
+saúde
+
+estética
+
+produtos personalizados
+
+serviços técnicos
+
+Autor
+
+Tiago Becker
+Desenvolvedor Backend / Fullstack

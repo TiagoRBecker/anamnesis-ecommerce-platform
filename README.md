@@ -13,7 +13,8 @@ Plataforma de e-commerce fullstack para venda de documentos digitais, com fluxo 
 ## 📸 Imagens do projeto
 
 <!-- Troque os nomes abaixo pelos arquivos reais da pasta assets/ -->
-** Destaques Técnicos — adminFichaAnamnese
+** Destaques Técnicos — Painel Admin
+
 <div
   style="
     display: grid;
@@ -54,6 +55,30 @@ Plataforma de e-commerce fullstack para venda de documentos digitais, com fluxo 
   <img src="./assets/ficha/client/4.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Gestão de Categorias" />
   <img src="./assets/ficha/client/5.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Modal Nova Categoria" />
   <img src="./assets/ficha/client/6.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Painel de Carrinho" />
+</div>
+
+**Painel administrativo — gestão de produtos**
+
+
+<div
+  style="
+    display: grid;
+    grid-template-columns: repeat(3, 250px); /* Alterado para 250px */
+    gap: 16px;
+    justify-content: center;
+    margin-top: 32px;
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+  "
+>
+  <!-- Todas as imagens agora têm width="250" e height="167" -->
+  <img src="./assets/ficha/admin/1.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Tela de Login" />
+  <img src="./assets/ficha/admin/2.png" width="250" height="167" style="object-fit:=contain; border: 1px solid #eee;" alt="Gestão de Produtos" />
+  <img src="./assets/ficha/admin/3.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Modal Novo Produto" />
+  <img src="./assets/ficha/admin/4.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Gestão de Categorias" />
+  <img src="./assets/ficha/admin/5.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Modal Nova Categoria" />
+  <img src="./assets/ficha/admin/6.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Painel de Carrinho" />
 </div>
 
 **Fluxo de anamnese (validação pré-compra)**

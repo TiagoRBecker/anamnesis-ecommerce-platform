@@ -1,121 +1,58 @@
-Anamnesis Ecommerce Platform
+# Anamnesis E-commerce Platform
 
-Plataforma ecommerce fullstack com fluxo de anamnese pré-compra, desenvolvida para coletar e validar informações do cliente antes da conclusão do pedido.
+Plataforma de e-commerce fullstack para venda de documentos digitais, com fluxo de anamnese pré-compra para validação de dados do cliente, checkout integrado e painel administrativo completo.
 
-O sistema integra frontend e backend em um fluxo orientado a dados, garantindo que requisitos específicos do produto sejam atendidos antes da compra.
+![Stack](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Stack](https://img.shields.io/badge/Nest.js-E0234E?style=flat&logo=nestjs&logoColor=white)
+![Stack](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![Stack](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Stack](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
+![Stack](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Stack](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
-Este projeto simula um cenário real de ecommerce especializado com coleta estruturada de informações do usuário.
+## 📸 Imagens do projeto
 
-Visão Geral do Sistema
+<!-- Troque os nomes abaixo pelos arquivos reais da pasta assets/ -->
 
-O processo de compra inclui uma etapa de anamnese obrigatória, onde o usuário fornece dados relevantes que influenciam a elegibilidade e personalização do produto.
+**Página inicial / vitrine de produtos**
+![Home](./assets/home.png)
 
-Fluxo principal:
+**Fluxo de anamnese (validação pré-compra)**
+![Anamnese](./assets/anamnese-flow.png)
 
-Seleção de produto
+**Checkout — Pagar.me (Pix e cartão)**
+![Checkout](./assets/checkout.png)
 
-Preenchimento de anamnese
+**Painel administrativo — gestão de produtos**
+![Admin](./assets/admin-dashboard.png)
 
-Validação de dados
+## 🧩 Sobre o projeto
 
-Revisão
+Sistema desenvolvido para automatizar a venda de documentos digitais, com foco em segurança de dados, validação de informações do cliente antes da compra (anamnese) e automação de processos financeiros. Projeto em produção, desenvolvido de ponta a ponta (API, painel admin e infraestrutura).
 
-Confirmação de compra
+## ⚙️ Funcionalidades
 
-Esse modelo é comum em ecommerce de saúde, estética e produtos personalizados.
+- Catálogo de produtos digitais com cadastro via painel admin
+- Fluxo de anamnese para validação de dados antes da finalização da compra
+- Checkout com Pagar.me — Pix e cartão de crédito
+- Upload e armazenamento seguro de documentos e imagens via AWS
+- Painel administrativo em Next.js para gestão de produtos e pedidos
+- API REST em Nest.js com Prisma ORM e PostgreSQL
 
-Arquitetura
+## 🛠️ Tecnologias
 
-O sistema foi estruturado em arquitetura fullstack com separação clara entre frontend, backend e persistência.
+| Camada | Tecnologias |
+|---|---|
+| Backend | Nest.js, Prisma ORM, PostgreSQL |
+| Frontend / Admin | Next.js, React |
+| Pagamentos | Pagar.me (Pix, Cartão de Crédito) |
+| Armazenamento | AWS |
+| Infraestrutura | Docker, VPS Linux, Nginx, Fail2ban |
 
-Camadas principais:
+## 🚀 Deploy
 
-Frontend — interface do usuário e fluxo de compra
+Aplicação em produção, com deploy em VPS própria (Docker + Nginx) e proteção contra acessos indevidos via Fail2ban.
 
-API — regras de negócio e processamento da anamnese
+---
 
-Domínio — entidades e validações
-
-Persistência — armazenamento relacional
-
-O backend centraliza a lógica de validação e processamento do fluxo de anamnese, garantindo consistência entre clientes.
-
-Stack Tecnológica
-Backend
-
-Node.js
-
-TypeScript
-
-API REST
-
-Persistência relacional
-
-Frontend
-
-React
-
-Next.js
-
-Tailwind CSS / Chakra UI
-
-Funcionalidades Principais
-
-Catálogo de produtos
-
-Fluxo de anamnese pré-compra
-
-Coleta estruturada de dados do cliente
-
-Validação de elegibilidade
-
-Revisão de informações
-
-Finalização de pedido
-
-Persistência de respostas
-
-Diferencial Técnico
-
-O principal diferencial do sistema é a integração do fluxo de anamnese diretamente ao processo de compra, transformando o checkout em um fluxo orientado a dados e validações de domínio.
-
-Esse modelo permite:
-
-personalização de produtos
-
-validação de requisitos
-
-coleta de dados estruturados
-
-suporte a ecommerce especializado
-
-Meu Papel no Projeto
-
-Arquitetura da aplicação
-
-Modelagem do domínio de anamnese
-
-Implementação do backend
-
-Desenvolvimento do frontend
-
-Estruturação do fluxo de compra
-
-Integração fullstack
-
-Contexto de Uso
-
-Este projeto representa um cenário real de ecommerce especializado, onde a coleta de informações do cliente é necessária antes da venda, comum em:
-
-saúde
-
-estética
-
-produtos personalizados
-
-serviços técnicos
-
-Autor
-
-Tiago Becker
-Desenvolvedor Backend / Fullstack
+Desenvolvido por [Tiago Ramon Becker](https://github.com/TiagoRBecker) — [Portfólio](https://tiagobecker.vercel.app/)

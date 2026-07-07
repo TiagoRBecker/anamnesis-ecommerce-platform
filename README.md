@@ -24,7 +24,12 @@ Plataforma de e-commerce fullstack para venda de documentos digitais, com fluxo 
 ![Checkout](./assets/checkout.png)
 
 **Painel administrativo — gestão de produtos**
-![Admin](./assets/admin-dashboard.png)
+![Admin](./assets/ficha.1png)
+![Admin](./assets/ficha.2png)
+![Admin](./assets/ficha.3png)
+![Admin](./assets/ficha.4png)
+![Admin](./assets/ficha.5png)
+![Admin](./assets/ficha.6png)
 
 ## 🧩 Sobre o projeto
 

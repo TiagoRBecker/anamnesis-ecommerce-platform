@@ -40,7 +40,7 @@ Plataforma de e-commerce fullstack para venda de documentos digitais, com fluxo 
 >
   <!-- Todas as imagens agora têm width="250" e height="167" -->
   <img src="./assets/ficha/admin/1.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Tela de Login" />
-  <img src="./assets/ficha/admin/2.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Gestão de Produtos" />
+  <img src="./assets/ficha/admin/2.png" width="250" height="167" style="object-fit:=contain; border: 1px solid #eee;" alt="Gestão de Produtos" />
   <img src="./assets/ficha/admin/3.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Modal Novo Produto" />
   <img src="./assets/ficha/admin/4.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Gestão de Categorias" />
   <img src="./assets/ficha/admin/5.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Modal Nova Categoria" />

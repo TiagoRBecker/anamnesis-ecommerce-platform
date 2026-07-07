@@ -13,7 +13,7 @@ Plataforma de e-commerce fullstack para venda de documentos digitais, com fluxo 
 ## 📸 Imagens do projeto
 
 <!-- Troque os nomes abaixo pelos arquivos reais da pasta assets/ -->
-**Página inicial / vitrine de produtos**
+** Destaques Técnicos — adminFichaAnamnese
 <div
   style="
     display: grid;
@@ -30,7 +30,6 @@ Plataforma de e-commerce fullstack para venda de documentos digitais, com fluxo 
   <img src="./assets/ficha/1.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Tela de Login" />
   <img src="./assets/ficha/2.png" width="250" height="167" style="object-fit:=contain; border: 1px solid #eee;" alt="Gestão de Produtos" />
   <img src="./assets/ficha/3.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Modal Novo Produto" />
-  <img src="./assets/ficha/4.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Gestão de Categorias" />
   <img src="./assets/ficha/5.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Modal Nova Categoria" />
   <img src="./assets/ficha/6.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Painel de Carrinho" />
 </div>

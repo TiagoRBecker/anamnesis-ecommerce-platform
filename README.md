@@ -22,30 +22,23 @@ Plataforma de e-commerce fullstack para venda de documentos digitais, com fluxo 
 
 **Checkout — Pagar.me (Pix e cartão)**
 ![Checkout](./assets/checkout.png)
+
+**Painel administrativo — gestão de produtos**
 <div
   style="
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 300px);
     gap: 16px;
-    max-width: 960px;
-    margin: 0 auto;
+    justify-content: center;
   "
 >
-<img
-  src="./assets/ficha/admin/1.png"
-  style="width:300px; height:200px;"
-   style="object-fit: cover;"
-  alt="Admin"
-/>
-
-![Admin](./assets/ficha/admin/2.png)
-![Admin](./assets/ficha/admin/3.png)
-![Admin](./assets/ficha/admin/4.png)
-![Admin](./assets/ficha/admin/5.png)
-![Admin](./assets/ficha/admin/6.png)
-  </div>
-**Painel administrativo — gestão de produtos**
-
+  <img src="./assets/ficha/admin/1.png" width="300" height="200" style="object-fit:cover;" />
+  <img src="./assets/ficha/admin/2.png" width="300" height="200" style="object-fit:cover;" />
+  <img src="./assets/ficha/admin/3.png" width="300" height="200" style="object-fit:cover;" />
+  <img src="./assets/ficha/admin/4.png" width="300" height="200" style="object-fit:cover;" />
+  <img src="./assets/ficha/admin/5.png" width="300" height="200" style="object-fit:cover;" />
+  <img src="./assets/ficha/admin/6.png" width="300" height="200" style="object-fit:cover;" />
+</div>
 
 ## 🧩 Sobre o projeto
 

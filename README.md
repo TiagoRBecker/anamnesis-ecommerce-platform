@@ -17,15 +17,15 @@ Plataforma de e-commerce fullstack para venda de documentos digitais, com fluxo 
 
 <table>
 <tr>
-<td><img src="./assets/ficha/1.png" width="300"></td>
-<td><img src="./assets/ficha/2.png" width="300"></td>
-<td><img src="./assets/ficha/3.png" width="300"></td>
+<td><img src="./assets/ficha/1.png" ></td>
+<td><img src="./assets/ficha/2.png"></td>
+<td><img src="./assets/ficha/3.png"></td>
 </tr>
 
 <tr>
-<td><img src="./assets/ficha/4.png" width="300"></td>
-<td><img src="./assets/ficha/5.png" width="300"></td>
-<td><img src="./assets/ficha/6.png" width="300"></td>
+<td><img src="./assets/ficha/4.png"></td>
+<td><img src="./assets/ficha/5.png" ></td>
+<td><img src="./assets/ficha/6.png" ></td>
 </tr>
 </table>
 

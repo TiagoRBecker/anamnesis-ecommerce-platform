@@ -24,20 +24,26 @@ Plataforma de e-commerce fullstack para venda de documentos digitais, com fluxo 
 ![Checkout](./assets/checkout.png)
 
 **Painel administrativo — gestão de produtos**
+## Detalhes das Telas (Grid Interativo)
+
 <div
   style="
     display: grid;
     grid-template-columns: repeat(3, 300px);
     gap: 16px;
     justify-content: center;
+    margin-top: 32px;
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
   "
 >
-  <img src="./assets/ficha/admin/1.png" width="300" height="200" style="object-fit:cover;" />
-  <img src="./assets/ficha/admin/2.png" width="300" height="200" style="object-fit:cover;" />
-  <img src="./assets/ficha/admin/3.png" width="300" height="200" style="object-fit:cover;" />
-  <img src="./assets/ficha/admin/4.png" width="300" height="200" style="object-fit:cover;" />
-  <img src="./assets/ficha/admin/5.png" width="300" height="200" style="object-fit:cover;" />
-  <img src="./assets/ficha/admin/6.png" width="300" height="200" style="object-fit:cover;" />
+  <img src="./assets/ficha/admin/1.png" width="300" height="200" style="object-fit:cover; border: 1px solid #eee;" alt="Tela de Login" />
+  <img src="./assets/ficha/admin/2.png" width="300" height="200" style="object-fit:cover; border: 1px solid #eee;" alt="Gestão de Produtos" />
+  <img src="./assets/ficha/admin/3.png" width="300" height="200" style="object-fit:cover; border: 1px solid #eee;" alt="Modal Novo Produto" />
+  <img src="./assets/ficha/admin/4.png" width="300" height="200" style="object-fit:cover; border: 1px solid #eee;" alt="Gestão de Categorias" />
+  <img src="./assets/ficha/admin/5.png" width="300" height="200" style="object-fit:cover; border: 1px solid #eee;" alt="Modal Nova Categoria" />
+  <img src="./assets/ficha/admin/6.png" width="300" height="200" style="object-fit:cover; border: 1px solid #eee;" alt="Painel de Carrinho" />
 </div>
 
 ## 🧩 Sobre o projeto

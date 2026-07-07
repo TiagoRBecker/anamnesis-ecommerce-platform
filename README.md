@@ -27,6 +27,7 @@ Plataforma de e-commerce fullstack para venda de documentos digitais, com fluxo 
 <img
   src="./assets/ficha/admin/1.png"
   style="width:400px; height:400px;"
+   style="object-fit: cover;"
   alt="Admin"
 />
 

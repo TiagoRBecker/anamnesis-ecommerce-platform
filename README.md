@@ -22,8 +22,15 @@ Plataforma de e-commerce fullstack para venda de documentos digitais, com fluxo 
 
 **Checkout — Pagar.me (Pix e cartão)**
 ![Checkout](./assets/checkout.png)
-
-**Painel administrativo — gestão de produtos**
+<div
+  style="
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 960px;
+    margin: 0 auto;
+  "
+>
 <img
   src="./assets/ficha/admin/1.png"
   style="width:300px; height:200px;"
@@ -36,6 +43,9 @@ Plataforma de e-commerce fullstack para venda de documentos digitais, com fluxo 
 ![Admin](./assets/ficha/admin/4.png)
 ![Admin](./assets/ficha/admin/5.png)
 ![Admin](./assets/ficha/admin/6.png)
+  </div>
+**Painel administrativo — gestão de produtos**
+
 
 ## 🧩 Sobre o projeto
 

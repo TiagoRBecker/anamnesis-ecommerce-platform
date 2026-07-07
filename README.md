@@ -24,12 +24,12 @@ Plataforma de e-commerce fullstack para venda de documentos digitais, com fluxo 
 ![Checkout](./assets/checkout.png)
 
 **Painel administrativo — gestão de produtos**
-## Detalhes das Telas (Grid Interativo)
+
 
 <div
   style="
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 250px); /* Alterado para 250px */
     gap: 16px;
     justify-content: center;
     margin-top: 32px;
@@ -38,14 +38,14 @@ Plataforma de e-commerce fullstack para venda de documentos digitais, com fluxo 
     border-radius: 8px;
   "
 >
-  <img src="./assets/ficha/admin/1.png" width="300" height="200" style="object-fit:cover; border: 1px solid #eee;" alt="Tela de Login" />
-  <img src="./assets/ficha/admin/2.png" width="300" height="200" style="object-fit:cover; border: 1px solid #eee;" alt="Gestão de Produtos" />
-  <img src="./assets/ficha/admin/3.png" width="300" height="200" style="object-fit:cover; border: 1px solid #eee;" alt="Modal Novo Produto" />
-  <img src="./assets/ficha/admin/4.png" width="300" height="200" style="object-fit:cover; border: 1px solid #eee;" alt="Gestão de Categorias" />
-  <img src="./assets/ficha/admin/5.png" width="300" height="200" style="object-fit:cover; border: 1px solid #eee;" alt="Modal Nova Categoria" />
-  <img src="./assets/ficha/admin/6.png" width="300" height="200" style="object-fit:cover; border: 1px solid #eee;" alt="Painel de Carrinho" />
+  <!-- Todas as imagens agora têm width="250" e height="167" -->
+  <img src="./assets/ficha/admin/1.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Tela de Login" />
+  <img src="./assets/ficha/admin/2.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Gestão de Produtos" />
+  <img src="./assets/ficha/admin/3.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Modal Novo Produto" />
+  <img src="./assets/ficha/admin/4.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Gestão de Categorias" />
+  <img src="./assets/ficha/admin/5.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Modal Nova Categoria" />
+  <img src="./assets/ficha/admin/6.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Painel de Carrinho" />
 </div>
-
 ## 🧩 Sobre o projeto
 
 Sistema desenvolvido para automatizar a venda de documentos digitais, com foco em segurança de dados, validação de informações do cliente antes da compra (anamnese) e automação de processos financeiros. Projeto em produção, desenvolvido de ponta a ponta (API, painel admin e infraestrutura).

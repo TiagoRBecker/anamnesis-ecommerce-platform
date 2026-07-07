@@ -56,7 +56,6 @@ Plataforma de e-commerce fullstack para venda de documentos digitais, com fluxo 
   <img src="./assets/ficha/client/5.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Modal Nova Categoria" />
   <img src="./assets/ficha/client/6.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Painel de Carrinho" />
 </div>
-
 **Painel administrativo — gestão de produtos**
 
 
@@ -80,6 +79,7 @@ Plataforma de e-commerce fullstack para venda de documentos digitais, com fluxo 
   <img src="./assets/ficha/admin/5.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Modal Nova Categoria" />
   <img src="./assets/ficha/admin/6.png" width="250" height="167" style="object-fit:cover; border: 1px solid #eee;" alt="Painel de Carrinho" />
 </div>
+
 
 **Fluxo de anamnese (validação pré-compra)**
 ![Anamnese](./assets/anamnese-flow.png)

@@ -26,7 +26,7 @@ Plataforma de e-commerce fullstack para venda de documentos digitais, com fluxo 
 **Painel administrativo — gestão de produtos**
 <img
   src="./assets/ficha/admin/1.png"
-  style="width:200px; height:100px;"
+  style="width:400px; height:200px;"
    style="object-fit: cover;"
   alt="Admin"
 />
